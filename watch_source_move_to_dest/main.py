@@ -26,6 +26,7 @@ DESTINATION_DIR = sys.argv[2]
 def move_file(file_path, dest_dir):
     print(f"Moving '{file_path}' To  {dest_dir}")
     os.system(f"mv '{file_path}' {dest_dir}")
+   #Consider Swapping this for a OS agnostic method see shutil.move
 
 
 
